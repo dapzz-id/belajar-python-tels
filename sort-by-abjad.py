@@ -1,0 +1,5 @@
+kata = input("Masukkan kata-kata yang akan diurutkan (Pisahkan dengan Spasi): ")
+daftar_kata = kata.split()
+daftar_kata.sort()
+kata_urut = " ".join(daftar_kata)
+print("Kata-kata setelah diurutkan: ", kata_urut)
